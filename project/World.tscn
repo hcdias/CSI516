@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://joao.gd" type="Script" id=1]
+[ext_resource path="res://Armature_parado_00.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 107.731, 233.872 )
+
+[node name="World" type="Node2D"]
+
+[node name="joao" type="KinematicBody2D" parent="."]
+position = Vector2( 382.491, 304.726 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="joao"]
+position = Vector2( 0.059082, 6.57306 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="joao"]
+visible = false
+position = Vector2( -1.85083, 1.85065 )
+shape = SubResource( 1 )

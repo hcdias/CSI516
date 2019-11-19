@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/background.png-c9b1e05b31b5f372f01f7d6e07b124e2.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://tiles/craftpix-633456-free-desert-scrolling-2d-game-backgrounds/_PNG/3/background.png"
+dest_files=[ "res://.import/background.png-c9b1e05b31b5f372f01f7d6e07b124e2.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

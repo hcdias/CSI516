@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/tree_4.png-731a8630b1610eb34e2df5b78809e38a.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://tiles/craftpix-891121-free-2d-rpg-desert-tileset/PNG/tree_4.png"
+dest_files=[ "res://.import/tree_4.png-731a8630b1610eb34e2df5b78809e38a.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
