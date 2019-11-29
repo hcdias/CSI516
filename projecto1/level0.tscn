@@ -583,7 +583,7 @@ position = Vector2( -94.3446, 109.267 )
 scale = Vector2( 0.503505, 0.48656 )
 frames = SubResource( 18 )
 animation = "idle"
-frame = 3
+frame = 7
 speed_scale = 5.0
 playing = true
 
@@ -602,7 +602,7 @@ smoothing_speed = 10.0
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
-motion_scale = Vector2( 0.8, 0.8 )
+motion_scale = Vector2( 0.5, 0.5 )
 motion_mirroring = Vector2( 2290, 0 )
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
@@ -612,4 +612,4 @@ texture = ExtResource( 82 )
 centered = false
 
 [node name="Soldado" parent="." instance=ExtResource( 83 )]
-position = Vector2( -1.948, -85.7123 )
+position = Vector2( -1869.35, -96.5274 )
