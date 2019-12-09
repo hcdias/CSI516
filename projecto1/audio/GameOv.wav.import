@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/GameOv.wav-335abb807ee0309589c63696d855a549.sample"
+
+[deps]
+
+source_file="res://audio/GameOv.wav"
+dest_files=[ "res://.import/GameOv.wav-335abb807ee0309589c63696d855a549.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=true
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=true
+compress/mode=0

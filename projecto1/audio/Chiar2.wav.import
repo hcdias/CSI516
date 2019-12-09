@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Chiar2.wav-100a979eecb0e5becc15af8bcdfe3b17.sample"
+
+[deps]
+
+source_file="res://audio/Chiar2.wav"
+dest_files=[ "res://.import/Chiar2.wav-100a979eecb0e5becc15af8bcdfe3b17.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=true
+compress/mode=0
