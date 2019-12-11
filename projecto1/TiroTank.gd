@@ -24,7 +24,7 @@ func set_pos_inicial(posicao):
 	pass
 
 func dano(valor):
-	position.x -= valor
+	position.x += valor
 	print("bomba atingida")
 	queue_free()
 
