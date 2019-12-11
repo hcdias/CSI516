@@ -1,38 +1,46 @@
-[gd_scene load_steps=51 format=2]
+[gd_scene load_steps=63 format=2]
 
-[ext_resource path="res://tiles/DesertTileset/png/Tile/1.png" type="Texture" id=1]
-[ext_resource path="res://tiles/DesertTileset/png/Tile/2.png" type="Texture" id=2]
-[ext_resource path="res://tiles/DesertTileset/png/Tile/11.png" type="Texture" id=3]
-[ext_resource path="res://tiles/DesertTileset/png/Tile/12.png" type="Texture" id=4]
-[ext_resource path="res://tiles/DesertTileset/png/Tile/13.png" type="Texture" id=5]
-[ext_resource path="res://tiles/DesertTileset/png/Tile/14.png" type="Texture" id=6]
-[ext_resource path="res://tiles/DesertTileset/png/Tile/15.png" type="Texture" id=7]
-[ext_resource path="res://tiles/DesertTileset/png/Tile/16.png" type="Texture" id=8]
-[ext_resource path="res://tiles/DesertTileset/png/Objects/Bush (1).png" type="Texture" id=9]
-[ext_resource path="res://tiles/DesertTileset/png/Objects/Bush (2).png" type="Texture" id=10]
-[ext_resource path="res://tiles/DesertTileset/png/Objects/Cactus (1).png" type="Texture" id=11]
-[ext_resource path="res://tiles/DesertTileset/png/Objects/Cactus (2).png" type="Texture" id=12]
-[ext_resource path="res://tiles/DesertTileset/png/Tile/3.png" type="Texture" id=13]
-[ext_resource path="res://tiles/DesertTileset/png/Objects/Cactus (3).png" type="Texture" id=14]
-[ext_resource path="res://tiles/DesertTileset/png/Objects/Crate.png" type="Texture" id=15]
-[ext_resource path="res://tiles/DesertTileset/png/Objects/Grass (1).png" type="Texture" id=16]
-[ext_resource path="res://tiles/DesertTileset/png/Objects/Grass (2).png" type="Texture" id=17]
-[ext_resource path="res://tiles/DesertTileset/png/Objects/Sign.png" type="Texture" id=18]
-[ext_resource path="res://tiles/DesertTileset/png/Objects/SignArrow.png" type="Texture" id=19]
-[ext_resource path="res://tiles/DesertTileset/png/Objects/Skeleton.png" type="Texture" id=20]
-[ext_resource path="res://tiles/DesertTileset/png/Objects/Stone.png" type="Texture" id=21]
-[ext_resource path="res://tiles/DesertTileset/png/Objects/StoneBlock.png" type="Texture" id=22]
-[ext_resource path="res://tiles/DesertTileset/png/Objects/Tree.png" type="Texture" id=23]
-[ext_resource path="res://tiles/DesertTileset/png/Tile/4.png" type="Texture" id=24]
-[ext_resource path="res://tiles/DesertTileset/png/Tile/5.png" type="Texture" id=25]
-[ext_resource path="res://tiles/DesertTileset/png/Tile/6.png" type="Texture" id=26]
-[ext_resource path="res://tiles/DesertTileset/png/Tile/7.png" type="Texture" id=27]
-[ext_resource path="res://tiles/DesertTileset/png/Tile/8.png" type="Texture" id=28]
-[ext_resource path="res://tiles/DesertTileset/png/Tile/9.png" type="Texture" id=29]
-[ext_resource path="res://tiles/DesertTileset/png/Tile/10.png" type="Texture" id=30]
-[ext_resource path="res://Ninja.tscn" type="PackedScene" id=31]
-[ext_resource path="res://tiles/DesertTileset/png/BG.png" type="Texture" id=32]
-[ext_resource path="res://Soldado.tscn" type="PackedScene" id=33]
+[ext_resource path="res://level0.gd" type="Script" id=1]
+[ext_resource path="res://tiles/DesertTileset/png/BG.png" type="Texture" id=2]
+[ext_resource path="res://galpao.png" type="Texture" id=3]
+[ext_resource path="res://fence.png" type="Texture" id=4]
+[ext_resource path="res://tiles/DesertTileset/png/Tile/1.png" type="Texture" id=5]
+[ext_resource path="res://tiles/DesertTileset/png/Tile/2.png" type="Texture" id=6]
+[ext_resource path="res://tiles/DesertTileset/png/Tile/11.png" type="Texture" id=7]
+[ext_resource path="res://tiles/DesertTileset/png/Tile/12.png" type="Texture" id=8]
+[ext_resource path="res://tiles/DesertTileset/png/Tile/13.png" type="Texture" id=9]
+[ext_resource path="res://tiles/DesertTileset/png/Tile/14.png" type="Texture" id=10]
+[ext_resource path="res://tiles/DesertTileset/png/Tile/15.png" type="Texture" id=11]
+[ext_resource path="res://tiles/DesertTileset/png/Tile/16.png" type="Texture" id=12]
+[ext_resource path="res://tiles/DesertTileset/png/Objects/Bush (1).png" type="Texture" id=13]
+[ext_resource path="res://tiles/DesertTileset/png/Objects/Bush (2).png" type="Texture" id=14]
+[ext_resource path="res://tiles/DesertTileset/png/Objects/Cactus (1).png" type="Texture" id=15]
+[ext_resource path="res://tiles/DesertTileset/png/Objects/Cactus (2).png" type="Texture" id=16]
+[ext_resource path="res://tiles/DesertTileset/png/Tile/3.png" type="Texture" id=17]
+[ext_resource path="res://tiles/DesertTileset/png/Objects/Cactus (3).png" type="Texture" id=18]
+[ext_resource path="res://tiles/DesertTileset/png/Objects/Crate.png" type="Texture" id=19]
+[ext_resource path="res://tiles/DesertTileset/png/Objects/Grass (1).png" type="Texture" id=20]
+[ext_resource path="res://tiles/DesertTileset/png/Objects/Grass (2).png" type="Texture" id=21]
+[ext_resource path="res://tiles/DesertTileset/png/Objects/Sign.png" type="Texture" id=22]
+[ext_resource path="res://tiles/DesertTileset/png/Objects/SignArrow.png" type="Texture" id=23]
+[ext_resource path="res://tiles/DesertTileset/png/Objects/Skeleton.png" type="Texture" id=24]
+[ext_resource path="res://tiles/DesertTileset/png/Objects/Stone.png" type="Texture" id=25]
+[ext_resource path="res://tiles/DesertTileset/png/Objects/StoneBlock.png" type="Texture" id=26]
+[ext_resource path="res://tiles/DesertTileset/png/Objects/Tree.png" type="Texture" id=27]
+[ext_resource path="res://tiles/DesertTileset/png/Tile/4.png" type="Texture" id=28]
+[ext_resource path="res://tiles/DesertTileset/png/Tile/5.png" type="Texture" id=29]
+[ext_resource path="res://tiles/DesertTileset/png/Tile/6.png" type="Texture" id=30]
+[ext_resource path="res://tiles/DesertTileset/png/Tile/7.png" type="Texture" id=31]
+[ext_resource path="res://tiles/DesertTileset/png/Tile/8.png" type="Texture" id=32]
+[ext_resource path="res://tiles/DesertTileset/png/Tile/9.png" type="Texture" id=33]
+[ext_resource path="res://tiles/DesertTileset/png/Tile/10.png" type="Texture" id=34]
+[ext_resource path="res://Ninja.tscn" type="PackedScene" id=35]
+[ext_resource path="res://Soldado.tscn" type="PackedScene" id=36]
+[ext_resource path="res://Tank.tscn" type="PackedScene" id=37]
+[ext_resource path="res://Vida.tscn" type="PackedScene" id=38]
+[ext_resource path="res://entrada.png" type="Texture" id=39]
+[ext_resource path="res://freeway.png" type="Texture" id=40]
+[ext_resource path="res://MarioLuigi2.ttf" type="DynamicFontData" id=41]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
@@ -84,7 +92,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 
 [sub_resource type="TileSet" id=17]
 0/name = "1"
-0/texture = ExtResource( 1 )
+0/texture = ExtResource( 5 )
 0/tex_offset = Vector2( 0, 0 )
 0/modulate = Color( 1, 1, 1, 1 )
 0/region = Rect2( 0, 0, 128, 128 )
@@ -100,7 +108,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 } ]
 0/z_index = 0
 1/name = "2.png 1"
-1/texture = ExtResource( 2 )
+1/texture = ExtResource( 6 )
 1/tex_offset = Vector2( 0, 0 )
 1/modulate = Color( 1, 1, 1, 1 )
 1/region = Rect2( 0, 0, 128, 128 )
@@ -116,7 +124,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 } ]
 1/z_index = 0
 2/name = "3"
-2/texture = ExtResource( 13 )
+2/texture = ExtResource( 17 )
 2/tex_offset = Vector2( 0, 0 )
 2/modulate = Color( 1, 1, 1, 1 )
 2/region = Rect2( 0, 0, 128, 128 )
@@ -132,7 +140,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 } ]
 2/z_index = 0
 3/name = "4"
-3/texture = ExtResource( 24 )
+3/texture = ExtResource( 28 )
 3/tex_offset = Vector2( 0, 0 )
 3/modulate = Color( 1, 1, 1, 1 )
 3/region = Rect2( 0, 0, 128, 128 )
@@ -142,7 +150,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 3/shapes = [  ]
 3/z_index = 0
 4/name = "5.png 4"
-4/texture = ExtResource( 25 )
+4/texture = ExtResource( 29 )
 4/tex_offset = Vector2( 0, 0 )
 4/modulate = Color( 1, 1, 1, 1 )
 4/region = Rect2( 0, 0, 128, 128 )
@@ -158,7 +166,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 } ]
 4/z_index = 0
 5/name = "6.png 5"
-5/texture = ExtResource( 26 )
+5/texture = ExtResource( 30 )
 5/tex_offset = Vector2( 0, 0 )
 5/modulate = Color( 1, 1, 1, 1 )
 5/region = Rect2( 0, 0, 128, 128 )
@@ -174,7 +182,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 } ]
 5/z_index = 0
 6/name = "7.png 6"
-6/texture = ExtResource( 27 )
+6/texture = ExtResource( 31 )
 6/tex_offset = Vector2( 0, 0 )
 6/modulate = Color( 1, 1, 1, 1 )
 6/region = Rect2( 0, 0, 128, 128 )
@@ -190,7 +198,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 } ]
 6/z_index = 0
 7/name = "8.png 7"
-7/texture = ExtResource( 28 )
+7/texture = ExtResource( 32 )
 7/tex_offset = Vector2( 0, 0 )
 7/modulate = Color( 1, 1, 1, 1 )
 7/region = Rect2( 0, 0, 128, 128 )
@@ -206,7 +214,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 } ]
 7/z_index = 0
 8/name = "9.png 8"
-8/texture = ExtResource( 29 )
+8/texture = ExtResource( 33 )
 8/tex_offset = Vector2( 0, 0 )
 8/modulate = Color( 1, 1, 1, 1 )
 8/region = Rect2( 0, 0, 128, 128 )
@@ -222,7 +230,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 } ]
 8/z_index = 0
 9/name = "10.png 9"
-9/texture = ExtResource( 30 )
+9/texture = ExtResource( 34 )
 9/tex_offset = Vector2( 0, 0 )
 9/modulate = Color( 1, 1, 1, 1 )
 9/region = Rect2( 0, 0, 128, 128 )
@@ -238,7 +246,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 } ]
 9/z_index = 0
 10/name = "11.png 10"
-10/texture = ExtResource( 3 )
+10/texture = ExtResource( 7 )
 10/tex_offset = Vector2( 0, 0 )
 10/modulate = Color( 1, 1, 1, 1 )
 10/region = Rect2( 0, 0, 128, 128 )
@@ -254,7 +262,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 } ]
 10/z_index = 0
 11/name = "12.png 11"
-11/texture = ExtResource( 4 )
+11/texture = ExtResource( 8 )
 11/tex_offset = Vector2( 0, 0 )
 11/modulate = Color( 1, 1, 1, 1 )
 11/region = Rect2( 0, 0, 128, 128 )
@@ -270,7 +278,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 } ]
 11/z_index = 0
 12/name = "13.png 12"
-12/texture = ExtResource( 5 )
+12/texture = ExtResource( 9 )
 12/tex_offset = Vector2( 0, 0 )
 12/modulate = Color( 1, 1, 1, 1 )
 12/region = Rect2( 0, 0, 128, 128 )
@@ -286,7 +294,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 } ]
 12/z_index = 0
 13/name = "14.png 13"
-13/texture = ExtResource( 6 )
+13/texture = ExtResource( 10 )
 13/tex_offset = Vector2( 0, 0 )
 13/modulate = Color( 1, 1, 1, 1 )
 13/region = Rect2( 0, 0, 128, 96 )
@@ -302,7 +310,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 } ]
 13/z_index = 0
 14/name = "15.png 14"
-14/texture = ExtResource( 7 )
+14/texture = ExtResource( 11 )
 14/tex_offset = Vector2( 0, 0 )
 14/modulate = Color( 1, 1, 1, 1 )
 14/region = Rect2( 0, 0, 128, 96 )
@@ -318,7 +326,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 } ]
 14/z_index = 0
 15/name = "16.png 15"
-15/texture = ExtResource( 8 )
+15/texture = ExtResource( 12 )
 15/tex_offset = Vector2( 0, 0 )
 15/modulate = Color( 1, 1, 1, 1 )
 15/region = Rect2( 0, 0, 128, 96 )
@@ -334,7 +342,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 } ]
 15/z_index = 0
 16/name = "Bush (1).png 16"
-16/texture = ExtResource( 9 )
+16/texture = ExtResource( 13 )
 16/tex_offset = Vector2( 0, 0 )
 16/modulate = Color( 1, 1, 1, 1 )
 16/region = Rect2( 0, 0, 160, 96 )
@@ -350,7 +358,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 } ]
 16/z_index = 0
 17/name = "Bush (2).png 17"
-17/texture = ExtResource( 10 )
+17/texture = ExtResource( 14 )
 17/tex_offset = Vector2( 0, 0 )
 17/modulate = Color( 1, 1, 1, 1 )
 17/region = Rect2( 0, 0, 128, 96 )
@@ -360,7 +368,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 17/shapes = [  ]
 17/z_index = 0
 18/name = "Cactus (1).png 18"
-18/texture = ExtResource( 11 )
+18/texture = ExtResource( 15 )
 18/tex_offset = Vector2( 0, 0 )
 18/modulate = Color( 1, 1, 1, 1 )
 18/region = Rect2( -7, 0, 126, 105 )
@@ -370,7 +378,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 18/shapes = [  ]
 18/z_index = 0
 19/name = "Cactus (2).png 19"
-19/texture = ExtResource( 12 )
+19/texture = ExtResource( 16 )
 19/tex_offset = Vector2( 0, 0 )
 19/modulate = Color( 1, 1, 1, 1 )
 19/region = Rect2( 0, 1, 71, 45 )
@@ -380,7 +388,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 19/shapes = [  ]
 19/z_index = 0
 20/name = "Cactus (3).png 20"
-20/texture = ExtResource( 14 )
+20/texture = ExtResource( 18 )
 20/tex_offset = Vector2( 0, 0 )
 20/modulate = Color( 1, 1, 1, 1 )
 20/region = Rect2( 0, 0, 96, 96 )
@@ -390,7 +398,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 20/shapes = [  ]
 20/z_index = 0
 21/name = "Crate.png 21"
-21/texture = ExtResource( 15 )
+21/texture = ExtResource( 19 )
 21/tex_offset = Vector2( 0, 0 )
 21/modulate = Color( 1, 1, 1, 1 )
 21/region = Rect2( 0, 1, 102, 101 )
@@ -400,7 +408,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 21/shapes = [  ]
 21/z_index = 0
 22/name = "Grass (1).png 22"
-22/texture = ExtResource( 16 )
+22/texture = ExtResource( 20 )
 22/tex_offset = Vector2( 0, 0 )
 22/modulate = Color( 1, 1, 1, 1 )
 22/region = Rect2( 0, -1, 105, 53 )
@@ -410,7 +418,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 22/shapes = [  ]
 22/z_index = 0
 23/name = "Grass (2).png 23"
-23/texture = ExtResource( 17 )
+23/texture = ExtResource( 21 )
 23/tex_offset = Vector2( 0, 0 )
 23/modulate = Color( 1, 1, 1, 1 )
 23/region = Rect2( 0, 0, 104, 52 )
@@ -420,7 +428,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 23/shapes = [  ]
 23/z_index = 0
 24/name = "Sign.png 24"
-24/texture = ExtResource( 18 )
+24/texture = ExtResource( 22 )
 24/tex_offset = Vector2( 0, 0 )
 24/modulate = Color( 1, 1, 1, 1 )
 24/region = Rect2( 0, 0, 86, 90 )
@@ -430,7 +438,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 24/shapes = [  ]
 24/z_index = 0
 25/name = "SignArrow.png 25"
-25/texture = ExtResource( 19 )
+25/texture = ExtResource( 23 )
 25/tex_offset = Vector2( 0, 0 )
 25/modulate = Color( 1, 1, 1, 1 )
 25/region = Rect2( -3, -2, 89, 90 )
@@ -440,7 +448,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 25/shapes = [  ]
 25/z_index = 0
 26/name = "Skeleton.png 26"
-26/texture = ExtResource( 20 )
+26/texture = ExtResource( 24 )
 26/tex_offset = Vector2( 0, 0 )
 26/modulate = Color( 1, 1, 1, 1 )
 26/region = Rect2( -8, -8, 170, 63 )
@@ -450,7 +458,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 26/shapes = [  ]
 26/z_index = 0
 27/name = "Stone.png 27"
-27/texture = ExtResource( 21 )
+27/texture = ExtResource( 25 )
 27/tex_offset = Vector2( 0, 0 )
 27/modulate = Color( 1, 1, 1, 1 )
 27/region = Rect2( -5, 1, 134, 72 )
@@ -460,7 +468,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 27/shapes = [  ]
 27/z_index = 0
 28/name = "StoneBlock.png 28"
-28/texture = ExtResource( 22 )
+28/texture = ExtResource( 26 )
 28/tex_offset = Vector2( 0, 0 )
 28/modulate = Color( 1, 1, 1, 1 )
 28/region = Rect2( -3, -3, 110, 104 )
@@ -470,7 +478,7 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 28/shapes = [  ]
 28/z_index = 0
 29/name = "Tree.png 29"
-29/texture = ExtResource( 23 )
+29/texture = ExtResource( 27 )
 29/tex_offset = Vector2( 0, 0 )
 29/modulate = Color( 1, 1, 1, 1 )
 29/region = Rect2( 0, 0, 318, 260 )
@@ -480,16 +488,23 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 29/shapes = [  ]
 29/z_index = 0
 
+[sub_resource type="RectangleShape2D" id=22]
+extents = Vector2( 22.4258, 88.2076 )
+
+[sub_resource type="RectangleShape2D" id=21]
+extents = Vector2( 213.004, 20.8654 )
+
+[sub_resource type="DynamicFont" id=20]
+size = 32
+outline_size = 3
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 41 )
+
+[sub_resource type="RectangleShape2D" id=23]
+extents = Vector2( 43.4629, 252.922 )
+
 [node name="World" type="Node2D"]
-
-[node name="TileMap" type="TileMap" parent="."]
-tile_set = SubResource( 17 )
-cell_size = Vector2( 128, 128 )
-cell_quadrant_size = 128
-format = 1
-tile_data = PoolIntArray( -131014, 0, 0, -1, 5, 0, -65479, 0, 0, -65478, 9, 0, -65443, 9, 0, 65535, 5, 0, 56, 0, 0, 57, 9, 0, 58, 9, 0, 93, 9, 0, 131071, 5, 0, 65591, 0, 0, 65592, 9, 0, 65593, 9, 0, 65594, 9, 0, 65598, 13, 0, 65599, 14, 0, 65600, 14, 0, 65601, 14, 0, 65602, 14, 0, 65603, 14, 0, 65604, 14, 0, 65605, 15, 0, 65629, 4, 0, 196607, 5, 0, 131076, 29, 0, 131107, 0, 0, 131108, 1, 0, 131109, 1, 0, 131110, 1, 0, 131111, 1, 0, 131112, 1, 0, 131113, 1, 0, 131114, 15, 0, 131126, 0, 0, 131127, 9, 0, 131128, 9, 0, 131129, 9, 0, 131130, 9, 0, 131145, 13, 0, 131146, 14, 0, 131147, 14, 0, 131148, 14, 0, 131149, 14, 0, 131150, 14, 0, 131151, 14, 0, 131152, 14, 0, 131153, 14, 0, 131154, 15, 0, 131164, 13, 0, 131165, 4, 0, 262143, 5, 0, 196642, 0, 0, 196643, 4, 0, 196644, 4, 0, 196645, 4, 0, 196646, 4, 0, 196647, 4, 0, 196648, 4, 0, 196649, 5, 0, 196661, 0, 0, 196662, 9, 0, 196663, 9, 0, 196664, 9, 0, 196665, 9, 0, 196666, 9, 0, 196692, 0, 0, 196693, 1, 0, 196694, 1, 0, 196695, 1, 0, 196696, 1, 0, 196697, 1, 0, 196698, 2, 0, 196701, 4, 0, 327679, 5, 0, 262144, 1, 0, 262145, 1, 0, 262146, 1, 0, 262147, 1, 0, 262148, 1, 0, 262149, 1, 0, 262150, 1, 0, 262151, 1, 0, 262152, 1, 0, 262153, 1, 0, 262154, 1, 0, 262155, 1, 0, 262156, 1, 0, 262157, 1, 0, 262158, 1, 0, 262159, 1, 0, 262160, 1, 0, 262161, 1, 0, 262162, 1, 0, 262163, 1, 0, 262164, 1, 0, 262165, 1, 0, 262166, 1, 0, 262167, 1, 0, 262168, 1, 0, 262169, 1, 0, 262170, 1, 0, 262171, 1, 0, 262172, 1, 0, 262173, 1, 0, 262174, 1, 0, 262175, 1, 0, 262176, 1, 0, 262177, 1, 0, 262178, 1, 0, 262179, 4, 0, 262180, 4, 0, 262181, 4, 0, 262182, 4, 0, 262183, 4, 0, 262184, 4, 0, 262185, 4, 0, 262186, 1, 0, 262187, 1, 0, 262188, 1, 0, 262189, 1, 0, 262190, 1, 0, 262191, 1, 0, 262192, 1, 0, 262193, 1, 0, 262194, 1, 0, 262195, 1, 0, 262196, 1, 0, 262197, 1, 0, 262198, 1, 0, 262199, 1, 0, 262200, 1, 0, 262201, 1, 0, 262202, 1, 0, 262203, 1, 0, 262204, 1, 0, 262205, 1, 0, 262206, 1, 0, 262207, 1, 0, 262208, 1, 0, 262209, 1, 0, 262210, 1, 0, 262211, 1, 0, 262212, 1, 0, 262213, 1, 0, 262214, 1, 0, 262215, 1, 0, 262216, 1, 0, 262217, 1, 0, 262218, 1, 0, 262219, 1, 0, 262220, 1, 0, 262221, 1, 0, 262222, 1, 0, 262223, 1, 0, 262224, 1, 0, 262225, 1, 0, 262226, 1, 0, 262227, 1, 0, 262228, 1, 0, 262229, 1, 0, 262230, 1, 0, 262231, 1, 0, 262232, 1, 0, 262233, 1, 0, 262234, 1, 0, 262235, 1, 0, 262236, 1, 0, 262237, 4, 0 )
-
-[node name="KinematicBody2D" parent="." instance=ExtResource( 31 )]
+script = ExtResource( 1 )
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
@@ -500,26 +515,136 @@ motion_mirroring = Vector2( 2290, 0 )
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
 position = Vector2( 0, -640 )
 scale = Vector2( 1.79183, 1.34096 )
-texture = ExtResource( 32 )
+texture = ExtResource( 2 )
 centered = false
 
-[node name="Soldado" parent="." instance=ExtResource( 33 )]
-position = Vector2( 2554.48, -305.582 )
+[node name="galpao2" type="Sprite" parent="."]
+modulate = Color( 0.54902, 0.54902, 0.54902, 1 )
+position = Vector2( 24298.2, 186.272 )
+scale = Vector2( 3.98599, 3.99068 )
+texture = ExtResource( 3 )
 
-[node name="Soldado5" parent="." instance=ExtResource( 33 )]
-position = Vector2( 4150.97, -60.6851 )
+[node name="galpao" type="Sprite" parent="."]
+modulate = Color( 0.54902, 0.54902, 0.54902, 1 )
+position = Vector2( 25875.7, 193.592 )
+scale = Vector2( 3.98599, 3.99068 )
+texture = ExtResource( 3 )
 
-[node name="Soldado6" parent="." instance=ExtResource( 33 )]
-position = Vector2( 6266.59, -434.029 )
+[node name="fence" type="Sprite" parent="."]
+position = Vector2( 29654, 246.514 )
+texture = ExtResource( 4 )
 
-[node name="Soldado7" parent="." instance=ExtResource( 33 )]
-position = Vector2( 7818.53, -316.901 )
+[node name="fence2" type="Sprite" parent="."]
+position = Vector2( 30822.1, 248.301 )
+texture = ExtResource( 4 )
 
-[node name="Soldado2" parent="." instance=ExtResource( 33 )]
-position = Vector2( 1637.55, -51.2939 )
+[node name="galpao3" type="Sprite" parent="."]
+modulate = Color( 0.54902, 0.54902, 0.54902, 1 )
+position = Vector2( 28356.7, 193.592 )
+scale = Vector2( 3.98599, 3.99068 )
+texture = ExtResource( 3 )
 
-[node name="Soldado3" parent="." instance=ExtResource( 33 )]
-position = Vector2( 674.278, -50.6688 )
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource( 17 )
+cell_size = Vector2( 128, 128 )
+cell_quadrant_size = 128
+format = 1
+tile_data = PoolIntArray( -196476, 29, 0, -65417, 29, 0, -65407, 13, 0, -65406, 14, 0, -65405, 14, 0, -65404, 14, 0, -65403, 14, 0, -65402, 14, 0, -65401, 14, 0, -65400, 15, 0, 65533, 1, 0, 65534, 1, 0, 65535, 2, 0, 131069, 4, 0, 131070, 4, 0, 131071, 5, 0, 65591, 0, 0, 65592, 1, 0, 65593, 1, 0, 65594, 2, 0, 65598, 13, 0, 65599, 14, 0, 65600, 14, 0, 65601, 14, 0, 65602, 14, 0, 65603, 14, 0, 65604, 14, 0, 65605, 15, 0, 65622, 29, 0, 65648, 13, 0, 65649, 14, 0, 65650, 14, 0, 65651, 14, 0, 65652, 14, 0, 65653, 14, 0, 65654, 14, 0, 65655, 14, 0, 65656, 14, 0, 65657, 14, 0, 65658, 14, 0, 65659, 14, 0, 65660, 14, 0, 65661, 14, 0, 65662, 14, 0, 65663, 14, 0, 65664, 15, 0, 65674, 0, 0, 65675, 1, 0, 65676, 1, 0, 65677, 1, 0, 65678, 1, 0, 65679, 1, 0, 65680, 1, 0, 65681, 1, 0, 65682, 1, 0, 65683, 1, 0, 65684, 1, 0, 65685, 2, 0, 65689, 13, 0, 65690, 14, 0, 65691, 14, 0, 65692, 14, 0, 65693, 14, 0, 65694, 14, 0, 65695, 14, 0, 65696, 14, 0, 65697, 14, 0, 65698, 14, 0, 65699, 14, 0, 65700, 1, 0, 65701, 1, 0, 65702, 2, 0, 196605, 4, 0, 196606, 4, 0, 196607, 5, 0, 131076, 29, 0, 131099, 29, 0, 131107, 0, 0, 131108, 1, 0, 131109, 1, 0, 131110, 1, 0, 131111, 1, 0, 131112, 1, 0, 131113, 1, 0, 131114, 15, 0, 131126, 0, 0, 131127, 7, 0, 131128, 4, 0, 131129, 4, 0, 131130, 5, 0, 131131, 29, 0, 131145, 13, 0, 131146, 14, 0, 131147, 14, 0, 131148, 14, 0, 131149, 14, 0, 131150, 14, 0, 131151, 14, 0, 131152, 14, 0, 131153, 14, 0, 131154, 15, 0, 131208, 0, 0, 131209, 1, 0, 131210, 7, 0, 131211, 4, 0, 131212, 4, 0, 131213, 4, 0, 131214, 4, 0, 131215, 4, 0, 131216, 4, 0, 131217, 4, 0, 131218, 4, 0, 131219, 4, 0, 131220, 4, 0, 131221, 9, 0, 131222, 2, 0, 131236, 3, 0, 131237, 4, 0, 131238, 5, 0, 131246, 29, 0, 262141, 4, 0, 262142, 4, 0, 262143, 5, 0, 196642, 0, 0, 196643, 4, 0, 196644, 4, 0, 196645, 4, 0, 196646, 4, 0, 196647, 4, 0, 196648, 4, 0, 196649, 5, 0, 196661, 0, 0, 196662, 7, 0, 196663, 4, 0, 196664, 4, 0, 196665, 4, 0, 196666, 5, 0, 196692, 0, 0, 196693, 1, 0, 196694, 1, 0, 196695, 1, 0, 196696, 1, 0, 196697, 1, 0, 196698, 2, 0, 196743, 0, 0, 196744, 7, 0, 196745, 4, 0, 196746, 4, 0, 196747, 4, 0, 196748, 4, 0, 196749, 4, 0, 196750, 4, 0, 196751, 4, 0, 196752, 4, 0, 196753, 4, 0, 196754, 4, 0, 196755, 4, 0, 196756, 4, 0, 196757, 4, 0, 196758, 9, 0, 196759, 2, 0, 196771, 0, 0, 196772, 4, 0, 196773, 4, 0, 196774, 5, 0, 196799, 0, 0, 196800, 1, 0, 196801, 1, 0, 196802, 1, 0, 196803, 1, 0, 196804, 1, 0, 196805, 1, 0, 196806, 1, 0, 196807, 1, 0, 196808, 1, 0, 196809, 1, 0, 196810, 1, 0, 196811, 1, 0, 196812, 1, 0, 196813, 1, 0, 196814, 2, 0, 196819, 0, 0, 196820, 1, 0, 196821, 1, 0, 196822, 1, 0, 196823, 1, 0, 196824, 2, 0, 327673, 1, 0, 327674, 1, 0, 327675, 1, 0, 327676, 1, 0, 327677, 1, 0, 327678, 1, 0, 327679, 1, 0, 262144, 1, 0, 262145, 1, 0, 262146, 1, 0, 262147, 1, 0, 262148, 1, 0, 262149, 1, 0, 262150, 1, 0, 262151, 1, 0, 262152, 1, 0, 262153, 1, 0, 262154, 1, 0, 262155, 1, 0, 262156, 1, 0, 262157, 1, 0, 262158, 1, 0, 262159, 1, 0, 262160, 1, 0, 262161, 1, 0, 262162, 1, 0, 262163, 1, 0, 262164, 1, 0, 262165, 1, 0, 262166, 1, 0, 262167, 1, 0, 262168, 1, 0, 262169, 1, 0, 262170, 1, 0, 262171, 1, 0, 262172, 1, 0, 262173, 1, 0, 262174, 1, 0, 262175, 1, 0, 262176, 1, 0, 262177, 1, 0, 262178, 1, 0, 262179, 4, 0, 262180, 4, 0, 262181, 4, 0, 262182, 4, 0, 262183, 4, 0, 262184, 4, 0, 262185, 4, 0, 262186, 1, 0, 262187, 1, 0, 262188, 1, 0, 262189, 1, 0, 262190, 1, 0, 262191, 1, 0, 262192, 1, 0, 262193, 1, 0, 262194, 1, 0, 262195, 1, 0, 262196, 1, 0, 262197, 1, 0, 262198, 1, 0, 262199, 1, 0, 262200, 1, 0, 262201, 1, 0, 262202, 1, 0, 262203, 1, 0, 262204, 1, 0, 262205, 1, 0, 262206, 1, 0, 262207, 1, 0, 262208, 1, 0, 262209, 1, 0, 262210, 1, 0, 262211, 1, 0, 262212, 1, 0, 262213, 1, 0, 262214, 1, 0, 262215, 1, 0, 262216, 1, 0, 262217, 1, 0, 262218, 1, 0, 262219, 1, 0, 262220, 1, 0, 262221, 1, 0, 262222, 1, 0, 262223, 1, 0, 262224, 1, 0, 262225, 1, 0, 262226, 1, 0, 262227, 1, 0, 262228, 1, 0, 262229, 1, 0, 262230, 1, 0, 262231, 1, 0, 262232, 1, 0, 262233, 1, 0, 262234, 1, 0, 262235, 1, 0, 262236, 1, 0, 262237, 1, 0, 262238, 1, 0, 262239, 1, 0, 262240, 1, 0, 262241, 1, 0, 262242, 1, 0, 262243, 1, 0, 262244, 1, 0, 262245, 1, 0, 262246, 1, 0, 262247, 1, 0, 262248, 1, 0, 262249, 1, 0, 262250, 1, 0, 262251, 1, 0, 262252, 1, 0, 262253, 1, 0, 262254, 1, 0, 262255, 1, 0, 262256, 1, 0, 262257, 1, 0, 262258, 1, 0, 262259, 1, 0, 262260, 1, 0, 262261, 1, 0, 262262, 1, 0, 262263, 1, 0, 262264, 1, 0, 262265, 1, 0, 262266, 1, 0, 262267, 1, 0, 262268, 1, 0, 262269, 1, 0, 262270, 1, 0, 262271, 1, 0, 262272, 1, 0, 262273, 1, 0, 262274, 1, 0, 262275, 1, 0, 262276, 1, 0, 262277, 1, 0, 262278, 1, 0, 262279, 1, 0, 262280, 1, 0, 262281, 1, 0, 262282, 1, 0, 262283, 1, 0, 262284, 1, 0, 262285, 1, 0, 262286, 1, 0, 262287, 1, 0, 262288, 1, 0, 262289, 1, 0, 262290, 1, 0, 262291, 1, 0, 262292, 1, 0, 262293, 1, 0, 262294, 1, 0, 262295, 1, 0, 262296, 1, 0, 262297, 1, 0, 262298, 1, 0, 262299, 1, 0, 262300, 1, 0, 262301, 1, 0, 262302, 1, 0, 262303, 1, 0, 262304, 1, 0, 262305, 1, 0, 262306, 1, 0, 262307, 1, 0, 262308, 1, 0, 262309, 1, 0, 262310, 1, 0, 262311, 1, 0, 262312, 1, 0, 262313, 1, 0, 262314, 1, 0, 262315, 1, 0, 262316, 1, 0, 262317, 1, 0, 262318, 1, 0, 262319, 1, 0, 262320, 1, 0, 262321, 1, 0, 262322, 1, 0, 262323, 1, 0, 262324, 1, 0, 262325, 1, 0, 262326, 1, 0, 262327, 1, 0, 262328, 1, 0, 262329, 1, 0, 262330, 1, 0, 262331, 1, 0, 262332, 1, 0, 262333, 1, 0, 262334, 1, 0, 262335, 1, 0, 262336, 1, 0, 262337, 1, 0, 262338, 1, 0, 262339, 1, 0, 262340, 1, 0, 262341, 1, 0, 262342, 1, 0, 262343, 1, 0, 262344, 1, 0, 262345, 1, 0, 262346, 1, 0, 262347, 1, 0, 262348, 1, 0, 262349, 1, 0, 262350, 1, 0, 262351, 1, 0, 262352, 1, 0, 262353, 1, 0, 262354, 1, 0, 262355, 1, 0, 262356, 1, 0, 262357, 1, 0, 262358, 1, 0, 262359, 1, 0, 262360, 1, 0, 262361, 1, 0, 262362, 1, 0, 262363, 1, 0, 262364, 1, 0, 262365, 1, 0, 262366, 1, 0, 262367, 1, 0, 262368, 1, 0, 262369, 1, 0, 262370, 1, 0, 262371, 1, 0, 262372, 1, 0, 262373, 1, 0, 262374, 1, 0, 262375, 1, 0, 262376, 1, 0, 262377, 1, 0, 262378, 1, 0, 262379, 1, 0, 262380, 1, 0, 262381, 1, 0, 262382, 1, 0, 262383, 1, 0, 262384, 1, 0, 262385, 1, 0, 262386, 1, 0, 262387, 1, 0, 262388, 1, 0 )
 
-[node name="Soldado4" parent="." instance=ExtResource( 33 )]
-position = Vector2( -3.39648, -61.9355 )
+[node name="KinematicBody2D" parent="." instance=ExtResource( 35 )]
+position = Vector2( 507.815, 7.81836 )
+
+[node name="Soldado" parent="." instance=ExtResource( 36 )]
+position = Vector2( 2501.87, 325.747 )
+
+[node name="Soldado5" parent="." instance=ExtResource( 36 )]
+position = Vector2( 4579.37, 74.5996 )
+
+[node name="Soldado6" parent="." instance=ExtResource( 36 )]
+position = Vector2( 8126.75, -77.0275 )
+
+[node name="Soldado7" parent="." instance=ExtResource( 36 )]
+position = Vector2( 9618.57, 55.1321 )
+
+[node name="Soldado8" parent="." instance=ExtResource( 36 )]
+position = Vector2( 15593.5, 331.256 )
+
+[node name="Soldado2" parent="." instance=ExtResource( 36 )]
+position = Vector2( 3202.1, 322.021 )
+
+[node name="Soldado3" parent="." instance=ExtResource( 36 )]
+position = Vector2( 1687.78, 336.468 )
+
+[node name="Soldado4" parent="." instance=ExtResource( 36 )]
+position = Vector2( 6070.56, 328.256 )
+
+[node name="Tanque" parent="." instance=ExtResource( 37 )]
+position = Vector2( 15748.6, 35.6578 )
+
+[node name="Tanque3" parent="." instance=ExtResource( 37 )]
+position = Vector2( 19521.3, -346.734 )
+
+[node name="Tanque2" parent="." instance=ExtResource( 37 )]
+position = Vector2( 13071.1, 40.5968 )
+
+[node name="Vida" parent="." instance=ExtResource( 38 )]
+position = Vector2( 18403.5, -55.7134 )
+
+[node name="entrada" type="Sprite" parent="."]
+position = Vector2( 26738.6, 506.369 )
+scale = Vector2( 1.40182, 1.46712 )
+texture = ExtResource( 39 )
+
+[node name="freeway" type="Sprite" parent="."]
+position = Vector2( 26925.3, 462.446 )
+scale = Vector2( 1.0925, 0.866705 )
+texture = ExtResource( 40 )
+
+[node name="Aviso" type="Area2D" parent="."]
+position = Vector2( 2.36914, -26.0526 )
+
+[node name="AvisoShape" type="CollisionShape2D" parent="Aviso"]
+position = Vector2( 23089.9, 363.948 )
+scale = Vector2( 1, 2 )
+shape = SubResource( 22 )
+
+[node name="NextLevel" type="Area2D" parent="."]
+collision_layer = 4
+
+[node name="lvlshape" type="CollisionShape2D" parent="NextLevel"]
+position = Vector2( 26703, 512.056 )
+shape = SubResource( 21 )
+
+[node name="Avisolayer" type="CanvasLayer" parent="."]
+editor/display_folded = true
+
+[node name="Label" type="Label" parent="Avisolayer"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -472.319
+margin_top = 70.5535
+margin_right = 197.681
+margin_bottom = 195.554
+custom_fonts/font = SubResource( 20 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+text = "Parece que esta tudo  trancado...
+preciso encontrar uma outra maneira de entrar sem ser notado"
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+
+[node name="Fim do mundo" type="StaticBody2D" parent="."]
+editor/display_folded = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fim do mundo"]
+position = Vector2( 30132.1, 257.755 )
+shape = SubResource( 23 )
+
+[node name="Fim do mundo2" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fim do mundo2"]
+position = Vector2( -39.2701, 257.755 )
+shape = SubResource( 23 )
+[connection signal="body_entered" from="Aviso" to="." method="_on_Aviso_body_entered"]
+[connection signal="body_entered" from="NextLevel" to="." method="_on_NextLevel_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

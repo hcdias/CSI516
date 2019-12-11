@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-var VIDA = 100
+var VIDA = 1000
 const UP = Vector2(0,-1)
 const GRAVITY = 25
 const SPEED = 350
@@ -10,11 +10,11 @@ var animation_control = false
 
 var intervalo = .5
 var ultimo_disparo = 0
-
 var pre_kunai = preload("res://Kunai.tscn")
 
 func _ready():
 	$MusicadFundo.play()
+	print(global_position)
 
 func _process(delta):
 	if Input.is_action_pressed("ui_right"):
@@ -138,7 +138,6 @@ func _on_Dano_body_entered(body): #se colidir com algum inimigo
 	$danofx.play()
 	VIDA -= body.forca
 	motion.y = JUMP
-	print(VIDA)
 	pass
 
 

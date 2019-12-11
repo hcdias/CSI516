@@ -1,0 +1,36 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Vida.gd" type="Script" id=1]
+[ext_resource path="res://sprites/FreeWarGameKit/Extra Assets/Life/PNG/life_power_up_1.png" type="Texture" id=2]
+[ext_resource path="res://sprites/FreeWarGameKit/Extra Assets/Life/PNG/life_power_up_2.png" type="Texture" id=3]
+[ext_resource path="res://sprites/FreeWarGameKit/Extra Assets/Life/PNG/life_power_up_3.png" type="Texture" id=4]
+[ext_resource path="res://sprites/FreeWarGameKit/Extra Assets/Life/PNG/life_power_up_4.png" type="Texture" id=5]
+[ext_resource path="res://audio/coins.wav" type="AudioStream" id=6]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "vida",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 55.8863
+
+[node name="Vida" type="Area2D"]
+script = ExtResource( 1 )
+
+[node name="Sprite" type="AnimatedSprite" parent="."]
+scale = Vector2( 0.5, 0.5 )
+frames = SubResource( 1 )
+animation = "vida"
+playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 2 )
+
+[node name="Som" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+[connection signal="body_entered" from="." to="." method="_on_Vida_body_entered"]
+[connection signal="finished" from="Som" to="." method="_on_Som_finished"]

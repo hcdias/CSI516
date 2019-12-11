@@ -17,8 +17,7 @@ func _process(delta):
 		$Sprite_kun.flip_v = false
 	
 	# apaga o objeto após um tempo
-	if position.x > x_inicial+2000 or position.x < x_inicial-2000: 
-		print("sumiu")
+	if position.x > x_inicial+2000 or position.x < x_inicial-2000:
 		queue_free()
 	pass
 

@@ -19,7 +19,7 @@ animations = [ {
 } ]
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 80.4595, 166.027 )
+extents = Vector2( 80.4595, 173.403 )
 
 [sub_resource type="Animation" id=3]
 resource_name = "dano"
@@ -70,15 +70,13 @@ collision_layer = 4
 script = ExtResource( 1 )
 
 [node name="Sprite" type="AnimatedSprite" parent="."]
-position = Vector2( 2108.2, 377.795 )
 scale = Vector2( 3.34729, 3.36527 )
 frames = SubResource( 1 )
 animation = "walk"
-frame = 3
 playing = true
 
 [node name="Shape" type="CollisionShape2D" parent="."]
-position = Vector2( 2120.69, 404.87 )
+position = Vector2( 0, 24.75 )
 shape = SubResource( 2 )
 
 [node name="Animacao" type="AnimationPlayer" parent="."]

@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://MarioLuigi2.ttf" type="DynamicFontData" id=1]
+
+[sub_resource type="DynamicFont" id=1]
+size = 51
+font_data = ExtResource( 1 )
+
+[node name="world1" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+margin_left = 310.591
+margin_top = 239.191
+margin_right = 688.591
+margin_bottom = 297.191
+custom_fonts/font = SubResource( 1 )
+text = "TESTE LEVEL 1"

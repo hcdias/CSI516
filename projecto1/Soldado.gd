@@ -4,8 +4,8 @@ var flip = true
 var posicao_inicial
 var posicao_final
 var velocidade = 0.5
-var VIDA = 500
-var forca = 300 # força do dano q o inimigo dá
+var VIDA = 100
+var forca = 100 # força do dano q o inimigo dá
 
 func _ready():
 	$Sprite.play("walk")
