@@ -13,7 +13,7 @@ func _ready():
 #func _process(delta):
 #	pass
 
-
+		
 func _on_Node2D_body_entered(body):
 	if(body.name == "KinematicBody2D"):
 		$AcceptDialog.popup()
@@ -22,5 +22,5 @@ func _on_Node2D_body_entered(body):
 
 
 func _on_AcceptDialog_confirmed():
-	get_tree().change_scene("res://level_final.tscn")
+	get_tree().change_scene("res://LevelFinal.tscn")
 	pass # Replace with function body.
