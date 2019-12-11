@@ -488,10 +488,10 @@ points = PoolVector2Array( 0, 0, 128, 0, 128, 128, 0, 128 )
 29/shapes = [  ]
 29/z_index = 0
 
-[sub_resource type="RectangleShape2D" id=22]
+[sub_resource type="RectangleShape2D" id=18]
 extents = Vector2( 22.4258, 88.2076 )
 
-[sub_resource type="RectangleShape2D" id=21]
+[sub_resource type="RectangleShape2D" id=19]
 extents = Vector2( 213.004, 20.8654 )
 
 [sub_resource type="DynamicFont" id=20]
@@ -500,7 +500,7 @@ outline_size = 3
 outline_color = Color( 0, 0, 0, 1 )
 font_data = ExtResource( 41 )
 
-[sub_resource type="RectangleShape2D" id=23]
+[sub_resource type="RectangleShape2D" id=21]
 extents = Vector2( 43.4629, 252.922 )
 
 [node name="World" type="Node2D"]
@@ -606,14 +606,14 @@ position = Vector2( 2.36914, -26.0526 )
 [node name="AvisoShape" type="CollisionShape2D" parent="Aviso"]
 position = Vector2( 23089.9, 363.948 )
 scale = Vector2( 1, 2 )
-shape = SubResource( 22 )
+shape = SubResource( 18 )
 
 [node name="NextLevel" type="Area2D" parent="."]
 collision_layer = 4
 
 [node name="lvlshape" type="CollisionShape2D" parent="NextLevel"]
 position = Vector2( 26703, 512.056 )
-shape = SubResource( 21 )
+shape = SubResource( 19 )
 
 [node name="Avisolayer" type="CanvasLayer" parent="."]
 editor/display_folded = true
@@ -638,13 +638,13 @@ editor/display_folded = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Fim do mundo"]
 position = Vector2( 30132.1, 257.755 )
-shape = SubResource( 23 )
+shape = SubResource( 21 )
 
 [node name="Fim do mundo2" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Fim do mundo2"]
 position = Vector2( -39.2701, 257.755 )
-shape = SubResource( 23 )
+shape = SubResource( 21 )
 [connection signal="body_entered" from="Aviso" to="." method="_on_Aviso_body_entered"]
 [connection signal="body_entered" from="NextLevel" to="." method="_on_NextLevel_body_entered"]
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
