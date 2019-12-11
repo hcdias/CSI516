@@ -408,7 +408,6 @@ points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
 script = ExtResource( 1 )
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
-editor/display_folded = true
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
 motion_scale = Vector2( 0.5, 0.5 )
@@ -496,6 +495,7 @@ scale = Vector2( 1.0925, 0.866705 )
 texture = ExtResource( 10 )
 
 [node name="Aviso" type="Area2D" parent="."]
+editor/display_folded = true
 position = Vector2( 2.36914, -26.0526 )
 
 [node name="AvisoShape" type="CollisionShape2D" parent="Aviso"]
