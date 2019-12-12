@@ -15,8 +15,9 @@ func _ready():
 
 		
 func _on_Node2D_body_entered(body):
-	if(body.name == "KinematicBody2D"):
-		$AcceptDialog.popup()
+	if body.name == "KinematicBody2D":
+		$CanvasLayer/AcceptDialog.popup()
+		print_debug('teste')
 		
 	pass # Replace with function body.
 

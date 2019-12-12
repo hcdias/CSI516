@@ -597,7 +597,7 @@ texture = ExtResource( 31 )
 centered = false
 
 [node name="KinematicBody2D" parent="." instance=ExtResource( 32 )]
-position = Vector2( 390, 370 )
+position = Vector2( 288, 192 )
 
 [node name="AlienVermelho" parent="." instance=ExtResource( 33 )]
 position = Vector2( 1728, 358.843 )
@@ -623,13 +623,15 @@ position = Vector2( 20320, 416 )
 position = Vector2( 22784, 320 )
 shape = SubResource( 30 )
 
-[node name="AcceptDialog" type="AcceptDialog" parent="."]
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="AcceptDialog" type="AcceptDialog" parent="CanvasLayer"]
 visible = true
-margin_left = 22464.0
-margin_top = -64.0
-margin_right = 23095.0
-margin_bottom = 26.0
+margin_left = 22912.0
+margin_top = 160.0
+margin_right = 23543.0
+margin_bottom = 352.0
 window_title = "Diálogo"
 dialog_text = "A situação está muito pior do que eu imaginava. Tenho que dar um jeito de escapar desse lugar!"
 [connection signal="body_entered" from="Node2D" to="." method="_on_Node2D_body_entered"]
-[connection signal="confirmed" from="AcceptDialog" to="." method="_on_AcceptDialog_confirmed"]
+[connection signal="confirmed" from="CanvasLayer/AcceptDialog" to="." method="_on_AcceptDialog_confirmed"]

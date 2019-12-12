@@ -1,12 +1,11 @@
 extends Node2D
 
-var velo = -1000
+var velo = 500
 var x_inicial
-var forca = 200
 
 func _ready():
+	$AudioStreamPlayer.play()
 	set_process(true)
-	$Sprite_bomb.flip_h = true
 	pass
 
 func _process(delta):
@@ -19,14 +18,13 @@ func _process(delta):
 
 func set_pos_inicial(posicao):
 	position = posicao
-	position.y += 250
+	position.x += 100
+	position.y +=10
 	x_inicial = position.x
 	pass
 
-func dano(valor):
-	position.x += valor
-	print("bomba atingida")
+
+func _on_Area2D_body_entered(body):
+	body.VIDA -= 300
 	queue_free()
-
-
-
+	pass # Replace with function body.
