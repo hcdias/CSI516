@@ -11,31 +11,19 @@ O objetivo deste documento é desenvolver um jogo para apresentação na discipl
 <!-- Apresentar o tema. -->
 ### 1. Tema
 
-  O jogo a ser desenvolvido..
+  Area 51 Shippuden se passa durante os eventos de invasão da base militar
+norte americana conhecida como Área 51, localizada no estado de Nevada. O
+personagem principal é João da Silva, um jovem brasileiro que acreditava que a
+sociedade era controlada por organizações secretas: a nasa, os Illuminati, os
+maçons, as famílias milionárias. João tinha certeza que tudo era uma farsa, e que
+mais cedo ou mais tarde a verdade seria revelada. João lia mais e mais teorias a
+cada dia. Acreditava que os reptilianos estavam no controle do planeta e que ele
+estava certo sobre a farsa do pouso na lua.
 
-<!-- Descrever e limitar o escopo da aplicação. -->
-### 2. Escopo
 
-  O escopo do jogo será...
-  
+### 2. Referências
 
-<!-- Apresentar restrições de funcionalidades e de escopo. -->
-### 3. Restrições
-
-  O escopo do jogo não permite...
-
-<!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
-### 4. Protótipo
-  
-  Em andamento
-
-### 5. Referências
-
-  Em andamento
-
-## 6. Dependências para executar o projeto
-  
-  Em andamento
-
+  Engine utilizada(godot): https://godotengine.org/
 
 ## 7. Execução
+  Builds disponíveis: https://drive.google.com/open?id=1CCrWjJtoCDPR35nIxp0js7ZbrbchOvt0
