@@ -25,5 +25,5 @@ estava certo sobre a farsa do pouso na lua.
 
   Engine utilizada(godot): https://godotengine.org/
 
-### 7. Execução
+### 3. Execução
   Builds disponíveis: https://drive.google.com/open?id=1CCrWjJtoCDPR35nIxp0js7ZbrbchOvt0
