@@ -1,9 +1,4 @@
 # **CSI516-2019-02 - Proposta de Trabalho Final**
-## 
-
---------------
-
-<!-- Descrever um resumo sobre o trabalho. -->
 
 ### Resumo
 O objetivo deste trabalho é desenvolver um jogo para a disciplina CSI516 - Desenvolvimento de Jogos. 
